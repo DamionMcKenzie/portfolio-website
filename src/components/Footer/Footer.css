@@ -1,0 +1,36 @@
+#footer{
+	height: 6vh;
+	background-color: #B22222;
+	width: 100%;
+	bottom:0;
+	margin: 0px;
+	border:0px;
+	padding-bottom: 0px;
+}
+
+.icon{
+	justify-content: center;
+	display: inline-flex;
+	margin: 0px;
+	border:0px;
+}
+
+a > img{
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	cursor:pointer;
+	margin: 0px;
+	border:0px;
+}
+
+a > img:hover{
+	background-color: #FA8072;
+}
+
+/*.github{
+	padding: 0px;
+	
+}*/
+

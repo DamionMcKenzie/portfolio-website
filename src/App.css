@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0px;
+  border-right: 0px;
+  margin-right: 0px;
+  width: 100%;
+  /*background-color: ;*/
+}
+
+
+.Center{
+  display: flex;
+  justify-content:center;
+}
