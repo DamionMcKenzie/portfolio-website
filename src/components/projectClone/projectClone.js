@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css'
+import './projectClone.css'
 import IMDB from './IMDB.jpg';
 import janitorialCleaningServices from './janitorialCleaningServices.jpeg';
 import twitterAppAndroid from './twitterAppAndroid.png';

@@ -3,15 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import About from './components/About/About';
-import Projects from './components/Projects/Projects';
+import Projects from './components/projectClone/projectClone';
 import 'tachyons';
 
 
-//import Cover from './components/Cover/Cover';
-//import Footer from './components/Footer/Footer';
 
 
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+
+import { Route, Link, HashRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 
