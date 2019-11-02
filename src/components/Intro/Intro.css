@@ -1,0 +1,25 @@
+.intro{
+	height: 60vh;
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+.btn-learn, .btn-resume{
+  	 cursor: pointer;
+     background-color: #D72638;
+	 border-radius: 16px;
+	 margin: 10px;
+	 color: #F4F9E9;
+	 font-size: 15px;
+	 font: bold;
+	 padding: 10px;
+	 border: 0;
+}
+
+.para{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+

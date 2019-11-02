@@ -6,11 +6,16 @@
   border-right: 0px;
   margin-right: 0px;
   width: 100%;
-  /*background-color: ;*/
+  background-color: #F4F9E9;
+ 
 }
 
 
 .Center{
   display: flex;
   justify-content:center;
+}
+
+.justify{
+  text-align: justify;
 }

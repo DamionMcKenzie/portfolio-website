@@ -14,170 +14,96 @@ const Projects = () =>{
 
 
 							<div className = "portfolio-title">
-									<h1>Portfolio</h1>
+									<h1 style = {{ 'color': '#D72638'}}>PORTFOLIO</h1>
 							</div>
 
 
-				<p className = " project-intro courier f3 b pa3">
-				These are some of the projects I have been working on. The code for the business application will not be available for viewing but the Live Demo will be available as soon as the web app is live.
-				</p>
+							<p className = " project-intro courier f4 b pa2">
+							These are some of the projects I have been working on. The code for the business application will not be available for viewing but the Live Demo will be available as soon as the web app is live.
+							</p>
 
-			<div className = "Portfolio">
+					<div className = "Portfolio">
 
-
-					<div className = "project1 " >
-						<div className=" shadow-5 grow">
-								<article className="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-100-l mw5  ">
-								  
-								  <div className = 'container'>
-										  <img src={twitterAppAndroid} className="db w-100 br2 br--top" alt="Twitter application "  height = "500px"  width = 'auto'/>
-											
-											<div className=" overlay">
-												<div className = 'text'>This project was developed during my time learning android development with CodePath. In this app I built the client side of twitter using the twitter API to load tweets in the app. I also use OAuth to authenticate logging in to your twitter account.</div>					
-											</div>	  
-									</div>			 
-
-									 <div className=" project1-style pa2 ph3-ns pb3-ns">
-
-												    		<div className="dt w-100 mt1">
-															      <div className="dtc">
-															        <h1 className="f5 f4-ns mv0">Twitter Client Mobile Application</h1>
-															      </div>
-												    		</div>
-
-												  </div>
-								</article>
-
-						</div>
-
-										<a href = "https://github.com/DamionMcKenzie/simpleTweetApp" >
-									<div className = 'btnCard grow'>
-										<button style = {{'cursor': 'pointer'}}>Code and video walkthrough</button>
-									</div>
-										</a>
-			</div>
-
-
-			<div className = "project2 " >
-						<div className=" shadow-5 grow">
-								<article className="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-100-l mw5 center ">
-								  
-								  <div className = 'container'>
-										  <img src={obama} className="db w-100 br2 br--top" alt="Twitter application"  height = "500px"  width = 'auto'/>
-											
-											<div className=" overlay">
-												<div className = 'text'>A full stack web application that uses the Clarifai Machine learning API for facial recognition in an image. This web app also rank users based on the number of searches performed.</div>					
-											</div>	  
-									</div>			 
-
-									 <div className=" project1-style pa2 ph3-ns pb3-ns">
-
-												    		<div className="dt w-100 mt1">
-															      <div className="dtc">
-															        <h1 className="f5 f4-ns mv0">Smart Brain Web Application</h1>
-															      </div>
-												    		</div>
-												  </div>
-								</article>
-
-						</div>
-
-									<div className = 'btns'>
-												<a href = "https://github.com/DamionMcKenzie/smart-brain-app" >
-											<div className = 'btnCard grow'>
-												<button style = {{'cursor': 'pointer'}}>Code</button>
+								<div className = 'project1'>
+											<div class="twitter-img grow ">
+												  <img src={twitterAppAndroid} alt="twitter app" style = {{'width':'300px', 'height':'500px', 'borderRadius':'5%'}}/>	  
 											</div>
-												</a>
 
-											<div className = 'liveDemo'>
-												<a href = "https://face-detector-ai.herokuapp.com/" >
-											<div className = 'btnCard grow'>
-												<button style = {{'cursor': 'pointer'}}>Live Demo</button>
+								            <div className = 'description1'>
+									            <p className = 'justify'>This Android app is a sample Twitter application. Users can use this app to log in to twitter to 
+									            view their feed among other things. All logging in are authenticated by using OAuth.</p>
+
+									            <p>Created with: Twitter client API, Java, Android studio</p>
+									           		<div className = 'btns'>
+									            		<a href = "https://github.com/DamionMcKenzie/simpleTweetApp"><button className = 'btn-code grow'>Code</button></a>
+													</div>
+								            </div>
+								</div>
+
+
+
+
+								<div className = 'project2'>
+											<div class="wjcs-img grow ">
+												  <img src={janitorialCleaningServices} alt="twitter app" style = {{'width':'300px', 'height':'500px' , 'borderRadius':'5%'}}/>	  
 											</div>
-												</a>
 
+								            <div className = 'description1'>
+									            <p className = 'justify'>This full stack web app is a project i am doing which will serve as the official application for a business. 
+									            It was started out of necessity to have a custom web app and someone to handle the technological affairs of the business</p>
+									            <p>Created with: Twitter client API, Java, Android studio</p>
+									           		<div className = 'btn'>
+														<a><button className = 'btn-demo grow'>Live Demo</button></a>
+													</div>
+								            </div>
+								</div>
+
+
+
+
+								<div className = 'project3'>
+											<div class="imdb-img grow ">
+												  <img src={IMDB} alt="twitter app" style = {{'width':'300px', 'height':'500px', 'borderRadius':'5%'}}/>	  
 											</div>
-									</div>
 
-			</div>
-
-
-		 <div className = "project3">
-						<div className=" shadow-5 grow">
-								<article className="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-100-l mw5 center ">
-								  
-								  <div className = 'container'>
-										  <img src={IMDB} className="db w-100 br2 br--top" alt="Twitter application "  height = "500px"  width = 'auto'/>
-											
-											<div className=" overlay">
-												<div className = 'text'>This application uses IMDB API to display movies now playing in theaters. Also including in the app is a summary of each movie, a trailer and its ratings according to IMDB.</div>					
-											</div>	  
-									</div>			 
-
-									 <div className=" project1-style pa2 ph3-ns pb3-ns">
-
-												    		<div className="dt w-100 mt1">
-															      <div className="dtc">
-															        <h1 className="f5 f4-ns mv0">IMDB Mobile Application</h1>
-															      </div>
-												    		</div>
-												  </div>
-								</article>
-
-						</div>
-
-										<a href = "https://github.com/DamionMcKenzie/IMDB-MOVIE-APP" >
-									<div className = 'btnCard grow'>
-										<button style = {{'cursor': 'pointer'}}>Code and video walkthrough</button>
-									</div>
-										</a>
-			</div>
+								            <div className = 'description1'>
+									            <p className = 'justify'>The flickster application uses the IMDB API to display movies now playing in theaters. App features 
+									            include a summary, a trailer and ratings according to IMDB for each movie</p>
+									            <p>Created with: IMDB API, Java, Android studio</p>
+									           		<div className = 'btns'>
+									            		<a href = "https://github.com/DamionMcKenzie/IMDB-MOVIE-APP"><button className = 'btn-code grow'>Code</button></a>
+													</div>
+								            </div>
+					</div>
 
 
 
-			<div className = "project4 " >
-						<div className=" shadow-5 grow">
-								<article className="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-100-l mw5 center ">
-								  
-								  <div className = 'container'>
-										  <img src={janitorialCleaningServices} className="db w-100 br2 br--top" alt="Twitter application image"  height = "475px"  width = 'auto'/>
-											
-											<div className=" overlay">
-												<div className = 'text'>This application is being developed currently. The purpose of this project is to create a custom built web app which will suit the need to better handle the affairs of the business.</div>					
-											</div>	  
-									</div>			 
 
-									 <div className=" project1-style pa2 ph3-ns pb3-ns">
+								<div className = 'project4'>
+											<div class="obama-img grow ">
+												  <img src={obama} alt="twitter app" style = {{'width':'300px', 'height':'500px' , 'borderRadius':'5%'}}/>	  
+											</div>
 
-												    		<div className="dt w-100 mt1">
-															      <div className="dtc">
-															        <h1 className="f5 f4-ns mv0">White Glove Janitorial Services Web Application</h1>
-															      </div>
-												    		</div>
-												  </div>
-								</article>
+								            <div className = 'description1'>
+									            <p className = 'justify'>This app was built using the popular PERN stack. It uses a machine learning API to recognize 
+									            faces in an image. Users will also be ranked according to the number of searches done</p>
+									            <p>Created with: PostgreSql, Express.js, React.js, Node.js, Clarifai Machine Learning API</p>
 
-						</div>
+									           		<div className = 'btns'>
+									            		<a href = "https://github.com/DamionMcKenzie/smart-brain-app"><button className = 'btn-code grow'>Code</button></a>
+														<a href = "https://face-detector-ai.herokuapp.com/"><button className = 'btn-demo grow'>Live Demo</button></a>
+													</div>
+								            </div>
+								</div>
 
-							<div className = 'btns'>
-										
-									<div className = 'liveDemo'>
-											<a href = "" >
-										<div className = 'btnCard grow'>
-											<button style = {{'cursor': 'pointer'}}>Live Demo</button>
-										</div>
-											</a>
-									</div>
-							</div>
+			            </div>
 
-						</div>
 
-			</div>
-
+							<p className = " project-intro courier f4 b pa5 Center">
+							Note: This page will be updated regularly !!
+							</p>
 		</div>
-
-
-);
+	);
 		
 }
 

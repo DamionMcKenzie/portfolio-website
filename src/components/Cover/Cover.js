@@ -1,54 +1,24 @@
 import React from "react";
-import { Slide } from 'react-slideshow-image';
 import "./Cover.css";
-import img1 from './img1.JPG';
-import img5 from './img5.JPG';
-import img4 from './img4.JPG';
-import img12 from './img12.jpg';
 
+/*import Bio from './components/Bio/Bio'*/
 
-
- 
-const properties = {
-  duration: 3000,
-  transitionDuration: 500,
-  infinite: true,
-  /*indicators: true,*/
-  arrows: true,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  }
-}
  
 const Cover = () => {
-    return (
-    	
-			        <Slide {...properties} className = 'slide-container' >
 
-			          <div className="each-slide ">
-			           <img src = {img4} alt = "" />
-			          </div>
+			    return (
 
+			    	
+						<div className="hero-image">
+						  <div className="hero-text">
+							    <h1 style={{'font-size':'50px'}}>Hi, I'm Damion Mckenzie</h1>
+							    <h1>Software Engineer</h1>
+						  </div>
+						</div>	
+					
 
-			          <div className="each-slide">
-			            <img src = {img1} alt = ""/>
-			          </div>
+			    )
 
-
-
-			          <div className="each-slide">
-			            <img src = {img12} alt = "" />
-			          </div>
-
-
-			          <div className="each-slide">
-			            <img src = {img5} alt = "" />
-			          </div>
-
-			        </Slide>
-			      
-		
-    )
 }
 
 export default Cover;

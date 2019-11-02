@@ -1,0 +1,21 @@
+.expertise{
+	height: 60vh;
+	text-align: center;
+}
+
+.btn-projects{
+	 cursor: pointer;
+	 background-color: #F4F9E9;
+	 border-radius: 16px;
+	 margin: 10px;
+	 color: #D72638;
+	 font-size: 15px;
+	 font: bold;
+	 padding: 10px;
+	 border: 2px solid #D72638;
+}
+
+.btn-projects:hover{
+	background-color: #D72638;
+	color: #F4F9E9;
+}

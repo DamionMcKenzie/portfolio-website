@@ -1,19 +1,48 @@
-link{
-	text-decoration: none;
-	 cursor:pointer;
-	  margin: 0;
-    border: 0;
-}
-
 .navbar{
 	width: 100%;
-  background-color: #B22222;
+  background-color: #F0544F;
   height: 9vh;
 }
 
+.resume-btn{
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0;
+  border: 0;
+  margin-left: auto;
+}
+
+
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+
+
+.button {
+         background-color: #095256;
+         color: #F4F9E9;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font:bold 20px georgia;
+         cursor: pointer;
+        border-radius: 16px;
+         padding-top: 5px;
+         padding-bottom: 30px;
+         padding-right: 15px;
+         padding-left: 15px;
+         border: none;
+         }
+
 .tags{
 	cursor: pointer;
-	color: yellow;
+	color: #F4F9E9;
 	padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 10px;
@@ -41,7 +70,17 @@ ul li{
 }
 
 
-     ul li:hover {
+
+
+
+
+
+
+
+
+
+
+ul li:hover {
     /*background-color:#FA8072;
     color: white;*/
 }

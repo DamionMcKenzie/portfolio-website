@@ -1,6 +1,6 @@
 #footer{
 	height: 6vh;
-	background-color: #B22222;
+	background-color: #F0544F;
 	width: 100%;
 	bottom:0;
 	margin: 0px;
@@ -26,7 +26,7 @@ a > img{
 }
 
 a > img:hover{
-	background-color: #FA8072;
+	background-color: #B4B8AB;
 }
 
 /*.github{

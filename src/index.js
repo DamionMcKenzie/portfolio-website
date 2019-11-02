@@ -2,45 +2,48 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import About from './components/About/About';
-import Projects from './components/projectClone/projectClone';
+import  Bio from './components/Bio/Bio';
+import Projects from './components/Projects/Projects';
 import 'tachyons';
-
-
-
 
 
 import { Route, Link, HashRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 
-const routing = (
-		  <Router >
+const navbar = (
+				  <Router >
+					   	
+							      <ul className = 'navbar shadow-5'>
+									        <li>
+									          <Link to="/" className = 'tags dim'>HOME</Link>
+									        </li>
 
-			      	
-			      <ul className = 'navbar'>
-					        <li>
-					          <Link to="/" className = 'tags dim'>Home</Link>
-					        </li>
+									        <li>
+									          <Link to="/Bio" className = 'tags dim'>BIO</Link>
+									        </li>
 
-					        <li>
-					          <Link to="/About" className = 'tags dim'>About Me</Link>
-					        </li>
+									         <li>
+									          <Link to="/Projects" className = 'tags dim'>PROJECTS</Link>
+									        </li>
 
-					         <li>
-					          <Link to="/Projects" className = 'tags dim'>Projects</Link>
-					        </li>
-			      </ul>
-					
+									         <li className = 'resume-btn'>
+												  <a href="https://app.enhancv.com/share/a91568eb?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" className="button grow">RESUME</a>
+									        </li>
+							      </ul>
+									
 
-		      <Route exact path="/" component={App} />
-		      <Route path="/About" component={About} />
-		      <Route path="/Projects" component={Projects} />
-				   
-		  </Router>
-)
+						     		 <Route exact path="/" component={App} />
+						      		<Route path="/Bio" component={Bio} />
+						      		<Route path="/Projects" component={Projects} />
+						   				   
+				  </Router>
 
-ReactDOM.render( routing, document.getElementById('root'));
+	)
+
+
+
+ReactDOM.render( navbar, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
