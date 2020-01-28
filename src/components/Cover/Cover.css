@@ -3,13 +3,12 @@
 .hero-image {
   background-image: url("CB.jpg");
   background-color: #cccccc;
-  height: 85vh;
+  height: 120vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 110%;
   position: relative;
-
 }
 
 .hero-text {
@@ -24,6 +23,39 @@
 }
 
 .hero-text:hover{
+  cursor: pointer;
   background-color: #F4F9E9;
- /* cursor: pointer;*/
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+.hero-image {
+  background-image: url("CB.jpg");
+  background-color: #cccccc;
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  position: relative;
+}
+
+.hero-text {
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #D72638;
+  border: 2px solid white;
+}
+
+.hero-text:hover{
+  cursor: pointer;
+  background-color: #F4F9E9;
+}
+
 }

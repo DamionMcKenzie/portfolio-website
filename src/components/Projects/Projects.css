@@ -1,248 +1,1130 @@
-.project{
-  background-color: #F4F9E9;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+                    .project{
+                      background-color: #F4F9E9;
+                      height: 100%;
+                      margin: 0;
+                      padding-left: 30px;
+                      padding-right: 30px;
+                      padding-top: 5px;
+                      padding-bottom: 50px;
+                    }
+
+                .Portfolio{
+                   font-family: cursive;
+                  font-size: 20px;
+                  padding-right: 25px;
+                  padding-left: 25px;
+                  text-align: left;
+                  padding-bottom: 125px;
+                  background-color: #F0544F;
+                  border-radius: 36px;
+                }
+
+                .justify{
+                    text-align: left;
+                    padding-top: 0px;
+                }
+
+
+                .description1{
+                  justify-content: center;
+                  padding-top: 0px;
+                }
+
+
+                .project-intro{
+                  text-align: left;
+                  padding-top: 1000px;
+                }
+
+                .project2,.project4{
+                 padding-top: 200px;
+
+                }
+
+                  .project3{
+                    padding-top: 200px;
+                  }
+
+                .project1{
+                  padding-top: 70px;
+                }
+
+
+
+                 h1{
+                    text-align: center;
+                    color: #B22222;
+                }
+
+
+
+                .twitter-img{
+                  float: right;
+                 padding-left: 35px;
+                 width: 250px;
+                 height: auto;
+
+                }
+
+                .wjcs-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 375px;
+                 height: auto;
+                 padding-bottom: 15px;
+                }
+
+                .imdb-img{
+                  float: right;
+                 padding-left: 35px;
+                  width: 250px;
+                 height: auto;
+                }
+
+                .obama-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 375px;
+                 height: auto;
+                 padding-bottom: 15px;
+                }
+
+
+                .btns{
+                  display: inline-flex;
+                }
+
+                .btn-code{
+                  background-color: #095256;
+                  margin-right: 25px;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+                .btn-demo{
+                  background-color: #095256;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+
+                @import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+                .portfolio-title{
+                    color: #095256;
+                    text-align: center;
+                    padding-top: 15px;
+                    font-family: 'Signika Negative', sans-serif;
+                    font-size: 25px;
+                }
+
+
+                .ba {
+                    border-style: solid;
+                    border-width: 1px;
+                }
+
+                .b--black-10 {
+                    border-color: rgba(0, 0, 0, .1);
+                }
+
+
+                .br2 {
+                    border-radius: .25rem;
+                }
+
+                .br--top {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+
+                .db {
+                    display: block;
+                }
+
+                .dt {
+                    display: table;
+                }
+
+                .dtc {
+                    display: table-cell;
+                }
+
+                .lh-copy {
+                    line-height: 1.5;
+                }
+
+                .mw5 {
+                    max-width: 16rem;
+                }
+
+                .w-100 {
+                    width: 100%;
+                }
+
+                .dark-gray {
+                    color: #333;
+                }
+
+                .mid-gray {
+                    color: #555;
+                }
+
+                .pa2 {
+                    padding: .5rem;
+                }
+
+                .mt1 {
+                    margin-top: .25rem;
+                }
+
+                .mt2 {
+                    margin-top: .5rem;
+                }
+
+                .mv0 {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                .mv4 {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+
+                .tr {
+                    text-align: right;
+                }
+
+                .f5 {
+                    font-size: 1rem;
+                }
+
+                .f6 {
+                    font-size: .875rem;
+                }
+
+                .measure {
+                    max-width: 30em;
+                }
+
+                .center {
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+
 }
 
-.Portfolio{
-	  /*height: 100%;*/
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 5px;
-    padding-bottom: 250px;
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+
+         
+        .project{
+                      background-color: #F4F9E9;
+                      height: 100%;
+                      margin: 0;
+                      padding-left: 30px;
+                      padding-right: 30px;
+                      padding-top: 5px;
+                      padding-bottom: 70px;
+                    }
+
+                .Portfolio{
+                   font-family: cursive;
+                  font-size: 20px;
+                  padding-right: 25px;
+                  padding-left: 25px;
+                  text-align: left;
+                  padding-bottom: 250px;
+                  background-color: #F0544F;
+                  border-radius: 36px;
+                }
+
+                .justify{
+                    text-align: left;
+                    padding-top: 0px;
+                }
+
+
+                .description1{
+                  text-align: center;
+                  padding-top: 0px;
+                }
+
+
+                .project-intro{
+                  text-align: left;
+                  padding-top: 1000px;
+                }
+
+                .project2,.project4{
+                 padding-top: 350px;
+
+                }
+
+                  .project3{
+                    padding-top: 200px;
+                  }
+
+                .project1{
+                  padding-top: 70px;
+                }
+
+
+
+                 h1{
+                    text-align: center;
+                    color: #B22222;
+                }
+
+
+
+                .twitter-img{
+                  float: right;
+                 padding-left: 35px;
+                 width: 250px;
+                 height: auto;
+                }
+
+                .wjcs-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 350px;
+                 height: auto;
+                }
+
+                .imdb-img{
+                  float: right;
+                 padding-left: 35px;
+                  width: 250px;
+                 height: auto;
+                }
+
+                .obama-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 350px;
+                 height: auto;        
+                }
+
+
+                .btns{
+                  display: inline-flex;
+                  padding-top: 20px;
+                }
+
+                .btn-code{
+                  background-color: #095256;
+                  margin-right: 25px;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+                .btn-demo{
+                  background-color: #095256;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+
+                @import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+                .portfolio-title{
+                    color: #095256;
+                    text-align: center;
+                    padding-top: 15px;
+                    font-family: 'Signika Negative', sans-serif;
+                    font-size: 25px;
+                }
+
+
+                .ba {
+                    border-style: solid;
+                    border-width: 1px;
+                }
+
+                .b--black-10 {
+                    border-color: rgba(0, 0, 0, .1);
+                }
+
+
+                .br2 {
+                    border-radius: .25rem;
+                }
+
+                .br--top {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+
+                .db {
+                    display: block;
+                }
+
+                .dt {
+                    display: table;
+                }
+
+                .dtc {
+                    display: table-cell;
+                }
+
+                .lh-copy {
+                    line-height: 1.5;
+                }
+
+                .mw5 {
+                    max-width: 16rem;
+                }
+
+                .w-100 {
+                    width: 100%;
+                }
+
+                .dark-gray {
+                    color: #333;
+                }
+
+                .mid-gray {
+                    color: #555;
+                }
+
+                .pa2 {
+                    padding: .5rem;
+                }
+
+                .mt1 {
+                    margin-top: .25rem;
+                }
+
+                .mt2 {
+                    margin-top: .5rem;
+                }
+
+                .mv0 {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                .mv4 {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+
+                .tr {
+                    text-align: right;
+                }
+
+                .f5 {
+                    font-size: 1rem;
+                }
+
+                .f6 {
+                    font-size: .875rem;
+                }
+
+                .measure {
+                    max-width: 30em;
+                }
+
+                .center {
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+
 }
 
-.project-intro{
-  text-align: justify;
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+
+
+
+        .project{
+                      background-color: #F4F9E9;
+                      height: 100%;
+                      margin: 0;
+                      padding-left: 50px;
+                      padding-right: 50px;
+                      padding-top: 5px;
+                      padding-bottom: 70px;
+                    }
+
+                .Portfolio{
+                   font-family: cursive;
+                  font-size: 20px;
+                  padding-right: 25px;
+                  padding-left: 25px;
+                  text-align: left;
+                  padding-bottom: 300px;
+                  background-color: #F0544F;
+                  border-radius: 36px;
+                }
+
+                .justify{
+                    text-align: left;
+                    padding-top: 0px;
+                }
+
+
+                .description1{
+                  text-align: center;
+                  padding-top: 0px;
+                }
+
+
+                .project-intro{
+                  text-align: left;
+                  padding-top: 1000px;
+                }
+
+                .project2,.project4{
+                 padding-top: 375px;
+
+                }
+
+                  .project3{
+                    padding-top: 350px;
+                  }
+
+                .project1{
+                  padding-top: 70px;
+                }
+
+
+
+                 h1{
+                    text-align: center;
+                    color: #B22222;
+                }
+
+
+
+                .twitter-img{
+                  float: right;
+                 padding-left: 35px;
+                 width: 250px;
+                 height: auto;
+                }
+
+                .wjcs-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 350px;
+                 height: auto;
+                }
+
+                .imdb-img{
+                  float: right;
+                 padding-left: 35px;
+                  width: 250px;
+                 height: auto;
+                }
+
+                .obama-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 350px;
+                 height: auto;        
+                }
+
+
+                .btns{
+                  display: inline-flex;
+                  padding-top: 20px;
+                }
+
+                .btn-code{
+                  background-color: #095256;
+                  margin-right: 25px;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+                .btn-demo{
+                  background-color: #095256;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+
+                @import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+                .portfolio-title{
+                    color: #095256;
+                    text-align: center;
+                    padding-top: 15px;
+                    font-family: 'Signika Negative', sans-serif;
+                    font-size: 25px;
+                }
+
+
+                .ba {
+                    border-style: solid;
+                    border-width: 1px;
+                }
+
+                .b--black-10 {
+                    border-color: rgba(0, 0, 0, .1);
+                }
+
+
+                .br2 {
+                    border-radius: .25rem;
+                }
+
+                .br--top {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+
+                .db {
+                    display: block;
+                }
+
+                .dt {
+                    display: table;
+                }
+
+                .dtc {
+                    display: table-cell;
+                }
+
+                .lh-copy {
+                    line-height: 1.5;
+                }
+
+                .mw5 {
+                    max-width: 16rem;
+                }
+
+                .w-100 {
+                    width: 100%;
+                }
+
+                .dark-gray {
+                    color: #333;
+                }
+
+                .mid-gray {
+                    color: #555;
+                }
+
+                .pa2 {
+                    padding: .5rem;
+                }
+
+                .mt1 {
+                    margin-top: .25rem;
+                }
+
+                .mt2 {
+                    margin-top: .5rem;
+                }
+
+                .mv0 {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                .mv4 {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+
+                .tr {
+                    text-align: right;
+                }
+
+                .f5 {
+                    font-size: 1rem;
+                }
+
+                .f6 {
+                    font-size: .875rem;
+                }
+
+                .measure {
+                    max-width: 30em;
+                }
+
+                .center {
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+
 }
 
-.project2, .project3, .project4{
- padding-top: 400px;
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+
+
+
+        .project{
+                      background-color: #F4F9E9;
+                      height: 100%;
+                      margin: 0;
+                      padding-left: 70px;
+                      padding-right: 70px;
+                      padding-top: 5px;
+                      padding-bottom: 70px;
+                    }
+
+                .Portfolio{
+                   font-family: cursive;
+                  font-size: 20px;
+                  padding-right: 25px;
+                  padding-left: 25px;
+                  text-align: left;
+                  padding-bottom: 300px;
+                  background-color: #F0544F;
+                  border-radius: 36px;
+                }
+
+                .justify{
+                    text-align: left;
+                    padding-top: 0px;
+                }
+
+
+                .description1{
+                  text-align: center;
+                  padding-top: 0px;
+                }
+
+
+                .project-intro{
+                  text-align: left;
+                  padding-top: 1000px;
+                }
+
+                .project2,.project4{
+                 padding-top: 400px;
+
+                }
+
+                  .project3{
+                    padding-top: 400px;
+                  }
+
+                .project1{
+                  padding-top: 70px;
+                }
+
+
+
+                 h1{
+                    text-align: center;
+                    color: #B22222;
+                }
+
+
+
+                .twitter-img{
+                  float: right;
+                 padding-left: 35px;
+                 width: 250px;
+                 height: auto;
+                }
+
+                .wjcs-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 350px;
+                 height: auto;
+                }
+
+                .imdb-img{
+                  float: right;
+                 padding-left: 35px;
+                  width: 250px;
+                 height: auto;
+                }
+
+                .obama-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 350px;
+                 height: auto;        
+                }
+
+
+                .btns{
+                  display: inline-flex;
+                  padding-top: 20px;
+                }
+
+                .btn-code{
+                  background-color: #095256;
+                  margin-right: 25px;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+                .btn-demo{
+                  background-color: #095256;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+
+                @import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+                .portfolio-title{
+                    color: #095256;
+                    text-align: center;
+                    padding-top: 15px;
+                    font-family: 'Signika Negative', sans-serif;
+                    font-size: 25px;
+                }
+
+
+                .ba {
+                    border-style: solid;
+                    border-width: 1px;
+                }
+
+                .b--black-10 {
+                    border-color: rgba(0, 0, 0, .1);
+                }
+
+
+                .br2 {
+                    border-radius: .25rem;
+                }
+
+                .br--top {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+
+                .db {
+                    display: block;
+                }
+
+                .dt {
+                    display: table;
+                }
+
+                .dtc {
+                    display: table-cell;
+                }
+
+                .lh-copy {
+                    line-height: 1.5;
+                }
+
+                .mw5 {
+                    max-width: 16rem;
+                }
+
+                .w-100 {
+                    width: 100%;
+                }
+
+                .dark-gray {
+                    color: #333;
+                }
+
+                .mid-gray {
+                    color: #555;
+                }
+
+                .pa2 {
+                    padding: .5rem;
+                }
+
+                .mt1 {
+                    margin-top: .25rem;
+                }
+
+                .mt2 {
+                    margin-top: .5rem;
+                }
+
+                .mv0 {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                .mv4 {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+
+                .tr {
+                    text-align: right;
+                }
+
+                .f5 {
+                    font-size: 1rem;
+                }
+
+                .f6 {
+                    font-size: .875rem;
+                }
+
+                .measure {
+                    max-width: 30em;
+                }
+
+                .center {
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+
 }
 
 
-.project1{
-  padding-top: 100px;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+
+                .project{
+                      background-color: #F4F9E9;
+                      height: 100%;
+                      margin: 0;
+                      padding-left: 150px;
+                      padding-right: 150px;
+                      padding-top: 5px;
+                      padding-bottom: 70px;
+                    }
+
+                .Portfolio{
+                   font-family: cursive;
+                  font-size: 20px;
+                  padding-right: 25px;
+                  padding-left: 25px;
+                  text-align: left;
+                  padding-bottom: 375px;
+                  background-color: #F0544F;
+                  border-radius: 36px;
+                }
+
+                .justify{
+                    text-align: left;
+                    padding-top: 0px;
+                }
+
+
+                .description1{
+                  text-align: center;
+                  padding-top: 0px;
+                }
+
+
+                .project-intro{
+                  text-align: left;
+                  padding-top: 1000px;
+                }
+
+                .project2,.project4{
+                 padding-top: 450px;
+
+                }
+
+                  .project3{
+                    padding-top: 450px;
+                  }
+
+                .project1{
+                  padding-top: 70px;
+                }
+
+
+
+                 h1{
+                    text-align: center;
+                    color: #B22222;
+                }
+
+
+
+                .twitter-img{
+                  float: right;
+                 padding-left: 35px;
+                 width: 250px;
+                 height: auto;
+                }
+
+                .wjcs-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 350px;
+                 height: auto;
+                }
+
+                .imdb-img{
+                  float: right;
+                 padding-left: 35px;
+                  width: 250px;
+                 height: auto;
+                }
+
+                .obama-img{
+                  float: left;
+                 padding-right: 35px;
+                  width: 350px;
+                 height: auto;        
+                }
+
+
+                .btns{
+                  display: inline-flex;
+                  padding-top: 20px;
+                }
+
+                .btn-code{
+                  background-color: #095256;
+                  margin-right: 25px;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+                .btn-demo{
+                  background-color: #095256;
+                  border-radius: 16px;
+                  border: 0;
+                  color: #F4F9E9;
+                  font: bold 20px Signika Negative;
+                  cursor: pointer;
+                }
+
+
+                @import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+                .portfolio-title{
+                    color: #095256;
+                    text-align: center;
+                    padding-top: 15px;
+                    font-family: 'Signika Negative', sans-serif;
+                    font-size: 25px;
+                }
+
+
+                .ba {
+                    border-style: solid;
+                    border-width: 1px;
+                }
+
+                .b--black-10 {
+                    border-color: rgba(0, 0, 0, .1);
+                }
+
+
+                .br2 {
+                    border-radius: .25rem;
+                }
+
+                .br--top {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+
+                .db {
+                    display: block;
+                }
+
+                .dt {
+                    display: table;
+                }
+
+                .dtc {
+                    display: table-cell;
+                }
+
+                .lh-copy {
+                    line-height: 1.5;
+                }
+
+                .mw5 {
+                    max-width: 16rem;
+                }
+
+                .w-100 {
+                    width: 100%;
+                }
+
+                .dark-gray {
+                    color: #333;
+                }
+
+                .mid-gray {
+                    color: #555;
+                }
+
+                .pa2 {
+                    padding: .5rem;
+                }
+
+                .mt1 {
+                    margin-top: .25rem;
+                }
+
+                .mt2 {
+                    margin-top: .5rem;
+                }
+
+                .mv0 {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+                .mv4 {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+
+                .tr {
+                    text-align: right;
+                }
+
+                .f5 {
+                    font-size: 1rem;
+                }
+
+                .f6 {
+                    font-size: .875rem;
+                }
+
+                .measure {
+                    max-width: 30em;
+                }
+
+                .center {
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+
 }
-
-
- h1{
-    text-align: center;
-    color: #B22222;
-}
-
-
-p{
-    text-align: center;
-}
-
-.twitter-img{
-  float: right;
- padding-left: 15px;
- border-radius: 30%;
-}
-
-.wjcs-img{
-  float: left;
- padding-right: 15px;
- border-radius: 12px;
-}
-
-.imdb-img{
-  float: right;
- padding-left: 15px;
- border-radius: 12px;
-}
-
-.obama-img{
-  float: left;
- padding-right: 15px;
- border-radius: 12px;
-}
-
-.description1{
-  text-align: center;
-  padding-top: 150px;
-}
-
-.btns{
-  background-color: #F4F9E9;
-  display: inline-flex;
-}
-
-.btn-code{
-  background-color: #095256;
-  margin-right: 25px;
-  border-radius: 16px;
-  border: 0;
-  color: #F4F9E9;
-  font: bold 20px Signika Negative;
-  cursor: pointer;
-}
-
-.btn-demo{
-  background-color: #095256;
-  border-radius: 16px;
-  border: 0;
-  color: #F4F9E9;
-  font: bold 20px Signika Negative;
-  cursor: pointer;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
-.portfolio-title{
-    color: #095256;
-    text-align: center;
-    padding-top: 15px;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 25px;
-}
-
-.ba {
-    border-style: solid;
-    border-width: 1px;
-}
-
-.b--black-10 {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.br2 {
-    border-radius: .25rem;
-}
-
-.br--top {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-.db {
-    display: block;
-}
-
-.dt {
-    display: table;
-}
-
-.dtc {
-    display: table-cell;
-}
-
-.lh-copy {
-    line-height: 1.5;
-}
-
-.mw5 {
-    max-width: 16rem;
-}
-
-.w-100 {
-    width: 100%;
-}
-
-.dark-gray {
-    color: #333;
-}
-
-.mid-gray {
-    color: #555;
-}
-
-.pa2 {
-    padding: .5rem;
-}
-
-.mt1 {
-    margin-top: .25rem;
-}
-
-.mt2 {
-    margin-top: .5rem;
-}
-
-.mv0 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.mv4 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.tr {
-    text-align: right;
-}
-
-.f5 {
-    font-size: 1rem;
-}
-
-.f6 {
-    font-size: .875rem;
-}
-
-.measure {
-    max-width: 30em;
-}
-
-.center {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media only screen and (max-width: 1000px){
-        .Portfolio{
-       /* height: 100%;*/
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 5px;
-        padding-bottom: 25px;
-    }
-
-    .project2, .project3, .project4{
-        padding-top: 200px;
-        text-align: justify;
-    }
-
-
-      .project1{
-         padding-top: 20px;
-    }
-
-      .description1{
-         text-align: center;
-         padding-top: 30px;
-    }
-}
-
-
-
-/*@media screen and (min-width: 30em) {
-    .pb3-ns {
-        padding-bottom: 1rem;
-    }
-
-    .ph3-ns {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    .f4-ns {
-        font-size: 1.25rem;
-    }
-}
-
-@media screen and (min-width: 30em) and (max-width: 60em) {
-    .w-50-m {
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 60em) {
-    .w-25-l {
-        width: 25%;
-    }
-}*/

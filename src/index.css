@@ -1,97 +1,3 @@
-.navbar{
-	width: 100%;
-  background-color: #F0544F;
-  height: 9vh;
-}
-
-.resume-btn{
-  cursor: pointer;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 0;
-  border: 0;
-  margin-left: auto;
-}
-
-
-a{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    cursor: default;
-}
-
-
-.button {
-         background-color: #095256;
-         color: #F4F9E9;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font:bold 20px georgia;
-         cursor: pointer;
-        border-radius: 16px;
-         padding-top: 5px;
-         padding-bottom: 30px;
-         padding-right: 15px;
-         padding-left: 15px;
-         border: none;
-         }
-
-.tags{
-	cursor: pointer;
-	color: #F4F9E9;
-	padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin: 0;
-  border: 0;
-}
-
-
-ul{
-    list-style:none;
-    display: flex;
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
-
-ul li{
-    display: flex;
-    font:bold 20px georgia;
-    height: 5%;
-
-    /*probably what was causing the nav items to be evenly spaced*/
-    /*width: 100%;*/
-}
-
-
-
-
-
-
-
-
-
-
-
-
-ul li:hover {
-    /*background-color:#FA8072;
-    color: white;*/
-}
-
-
-ul li:active{
-	/*background-color: hotpink;*/
-}
-
-
-
 body {
   margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -108,3 +14,373 @@ code {
 }
 
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+              .navbar{
+            width:100%;
+            background-color: #F0544F;
+            height: 25vh;
+          }
+
+          .resume-btn{
+            cursor: pointer;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin: 0;
+            border: 0;
+            margin-left: auto;
+           
+          }
+
+
+          a{
+              text-decoration: none;
+              display: flex;
+              justify-content: center;
+              cursor: default;
+          }
+
+
+          .button {
+                   background-color: #095256;
+                   color: #F4F9E9;
+                   text-align: center;
+                   text-decoration: none;
+                   display: inline-block;
+                   font:bold 20px georgia;
+                   cursor: pointer;
+                   border-radius: 16px;
+                   padding-top: 5px;
+                   padding-bottom: 30px;
+                   padding-right: 15px;
+                   padding-left: 15px;
+                   border: none;
+                   }
+
+          .tags{
+            cursor: pointer;
+            color: #F4F9E9;
+            padding-top: 0px;
+            padding-bottom: 30px;
+            padding-right: 10px;
+            margin: 0;
+            border: 0;
+          }
+
+
+
+
+          ul{
+              list-style:none;
+              display: block;
+              margin: 0;
+              border: 0;
+              padding: 0;
+          }
+
+          ul li{
+              display: flex;
+              font:bold 20px georgia;
+              height: 5%;
+              padding: 14px;
+          }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+          .navbar{
+            width:100%;
+            background-color: #F0544F;
+            height: 25vh;
+          }
+
+          .resume-btn{
+            cursor: pointer;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin: 0;
+            border: 0;
+            margin-left: auto;
+           
+          }
+
+
+          a{
+              text-decoration: none;
+              display: flex;
+              justify-content: center;
+              cursor: default;
+          }
+
+
+          .button {
+                   background-color: #095256;
+                   color: #F4F9E9;
+                   text-align: center;
+                   text-decoration: none;
+                   display: inline-block;
+                   font:bold 20px georgia;
+                   cursor: pointer;
+                   border-radius: 16px;
+                   padding-top: 5px;
+                   padding-bottom: 30px;
+                   padding-right: 15px;
+                   padding-left: 15px;
+                   border: none;
+                   }
+
+          .tags{
+            cursor: pointer;
+            color: #F4F9E9;
+            padding-top: 0px;
+            padding-bottom: 30px;
+            padding-right: 10px;
+            margin: 0;
+            border: 0;
+          }
+
+
+
+
+          ul{
+              list-style:none;
+              display: block;
+              margin: 0;
+              border: 0;
+              padding: 0;
+          }
+
+          ul li{
+              display: flex;
+              font:bold 20px georgia;
+              height: 5%;
+              padding: 14px;
+          }
+
+}
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+     .navbar{
+        width: 100%;
+        background-color: #F0544F;
+        height: 11vh;
+      }
+
+      .resume-btn{
+        cursor: pointer;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0;
+        border: 0;
+        margin-left: auto;
+      }
+
+
+      a{
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          cursor: default;
+      }
+
+
+      .button {
+               background-color: #095256;
+               color: #F4F9E9;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font:bold 20px georgia;
+               cursor: pointer;
+              border-radius: 16px;
+               padding-top: 5px;
+               padding-bottom: 30px;
+               padding-right: 15px;
+               padding-left: 15px;
+               border: none;
+               }
+
+      .tags{
+        cursor: pointer;
+        color: #F4F9E9;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin: 0;
+        border: 0;
+      }
+
+
+      ul{
+          list-style:none;
+          display: flex;
+          margin: 0;
+          border: 0;
+          padding: 0;
+      }
+
+      ul li{
+          display: flex;
+          font:bold 20px georgia;
+          height: 5%;
+      }
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    .navbar{
+        width: 100%;
+        background-color: #F0544F;
+        height: 10vh;
+      }
+
+      .resume-btn{
+        cursor: pointer;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0;
+        border: 0;
+        margin-left: auto;
+      }
+
+
+      a{
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          cursor: default;
+      }
+
+
+      .button {
+               background-color: #095256;
+               color: #F4F9E9;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font:bold 20px georgia;
+               cursor: pointer;
+              border-radius: 16px;
+               padding-top: 5px;
+               padding-bottom: 30px;
+               padding-right: 15px;
+               padding-left: 15px;
+               border: none;
+               }
+
+      .tags{
+        cursor: pointer;
+        color: #F4F9E9;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin: 0;
+        border: 0;
+      }
+
+
+      ul{
+          list-style:none;
+          display: flex;
+          margin: 0;
+          border: 0;
+          padding: 0;
+      }
+
+      ul li{
+          display: flex;
+          font:bold 20px georgia;
+          height: 5%;
+      }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    .navbar{
+        width: 100%;
+        background-color: #F0544F;
+        height: 9vh;
+      }
+
+      .resume-btn{
+        cursor: pointer;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0;
+        border: 0;
+        margin-left: auto;
+      }
+
+
+      a{
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          cursor: default;
+      }
+
+
+      .button {
+               background-color: #095256;
+               color: #F4F9E9;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font:bold 20px georgia;
+               cursor: pointer;
+              border-radius: 16px;
+               padding-top: 5px;
+               padding-bottom: 30px;
+               padding-right: 15px;
+               padding-left: 15px;
+               border: none;
+               }
+
+      .tags{
+        cursor: pointer;
+        color: #F4F9E9;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin: 0;
+        border: 0;
+      }
+
+
+
+      ul{
+          list-style:none;
+          display: flex;
+          margin: 0;
+          border: 0;
+          padding: 0;
+      }
+
+
+      ul li{
+          display: flex;
+          font:bold 20px georgia;
+          height: 5%;
+      }
+}

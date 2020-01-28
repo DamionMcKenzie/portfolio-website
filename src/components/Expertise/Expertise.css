@@ -1,21 +1,56 @@
 .expertise{
-	height: 60vh;
-	text-align: center;
+	background-color: #F4F9E9;
+	height: 100vh;
+
 }
 
-.btn-projects{
+
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+.expertiseTitle{
+	 color: #095256;
+    text-align: center;
+    padding-top: 55px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
+}
+
+
+
+
+/*.btn-projects{
 	 cursor: pointer;
 	 background-color: #F4F9E9;
 	 border-radius: 16px;
-	 margin: 10px;
 	 color: #D72638;
 	 font-size: 15px;
 	 font: bold;
 	 padding: 10px;
 	 border: 2px solid #D72638;
-}
+	 width: 120px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 margin-top: 50px;
+	}
+
+
 
 .btn-projects:hover{
 	background-color: #D72638;
 	color: #F4F9E9;
+}*/
+
+
+
+.skill{
+	display: grid;
+	grid-template-columns: repeat(6,1fr); ;
+	grid-gap: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 25px;
 }
+
+
+
+
+

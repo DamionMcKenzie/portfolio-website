@@ -1,56 +1,270 @@
 
-.About{
-	height: 100%;
-	background-color: #F4F9E9;
-	padding-left: 250px;
-	padding-right: 250px;
-	padding-top: 20px;
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+			.About{
+				background-color: #F4F9E9;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 10px;
+				height: 270vh;
+			}
+
+			.about-image{
+			  width: 250px;
+			  padding-bottom: 5px;
+			  margin-left: auto;
+			  margin-right: auto;
+			  padding-right: 10px;
+			}
+
+
+
+			@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+			.About-title{
+				 color: #095256;
+			    text-align: center;
+			    padding-top: 5px;
+			    font-family: 'Signika Negative', sans-serif;
+			    font-size: 25px;
+			}
+
+
+
+			.quote{
+				font:bold 20px georgia;
+				padding-bottom: 35px;
+				padding-top: 10px;
+			}
+
+
+
+			.para{
+				text-align: left;
+			}
+
+
+
+			.about-section{
+
+				font-family: cursive;
+				font-size: 20px;
+				text-align: left;
+	
+			}
 }
-.About-title{
-	text-align: center;
-	padding-top: 15px;
-	font-family: Courier New;
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+
+
+			.About{
+				background-color: #F4F9E9;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 10px;
+				height: 100%;
+
+			}
+
+
+			.about-image{
+			  width: 350px;
+			  padding-bottom: 35px;
+			}
+
+
+			@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+			.About-title{
+				 color: #095256;
+			    text-align: center;
+			    padding-top: 5px;
+			    font-family: 'Signika Negative', sans-serif;
+			    font-size: 25px;
+			}
+
+
+
+			.quote{
+				font:bold 20px georgia;
+				padding-bottom: 35px;
+				padding-top: 10px;
+			}
+
+
+
+			.para{
+				text-align: left;
+			}
+
+
+
+			.about-section{
+
+				font-family: cursive;
+				font-size: 20px;
+				padding-right: 25px;
+				text-align: justify;
+				padding-bottom: 35px;
+				
+			}
+
 }
 
-.quote{
-	font:bold 20px georgia;
-	padding-bottom: 35px;
-	padding-top: 10px;
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+
+				.About{
+				background-color: #F4F9E9;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 10px;
+				height: 100%;
+			}
+
+
+			@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+			.About-title{
+				 color: #095256;
+			    text-align: center;
+			    padding-top: 5px;
+			    font-family: 'Signika Negative', sans-serif;
+			    font-size: 25px;
+			}
+
+			.quote{
+				font:bold 20px georgia;
+				padding-bottom: 35px;
+				padding-top: 10px;
+			}
+
+			.para{
+				text-align: left;
+			}
+
+			.about-section{
+				font-family: cursive;
+				font-size: 20px;
+				padding-right: 25px;
+				padding-bottom: 35px;
+			}
+
+
+
+				.about-image{
+					width:350px;
+					float: right;
+					padding-left: 25px;
+					padding-bottom: 25px;
+				}
+
 }
 
-.para{
-	text-align: justify;
-}
 
-.about-section{
-	font-family: cursive;
-	font-size: 20px;
-	padding-right: 25px;
-	text-align: justify;
-	padding-bottom: 35px;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
 
-
-
-section > img{
-	float: right;
-	border-radius: 30%;
-	padding-left: 20px;
-}
-
-
-@media only screen and (max-width: 1000px){
 		.About{
-		font-size: 0.9em;
-		padding: 26px;
-	}
+				background-color: #F4F9E9;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 10px;
+				height: 100%;
+			}
 
-	section > img{
-		float: none;
-		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
- 	    width: 70%;
-	}
+
+			@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+			.About-title{
+				 color: #095256;
+			    text-align: center;
+			    padding-top: 5px;
+			    font-family: 'Signika Negative', sans-serif;
+			    font-size: 25px;
+			}
+
+			.quote{
+				font:bold 20px georgia;
+				padding-bottom: 35px;
+				padding-top: 10px;
+			}
+
+			.para{
+				text-align: left;
+			}
+
+			.about-section{
+				font-family: cursive;
+				font-size: 20px;
+				padding-right: 25px;
+				padding-bottom: 35px;
+			}
+
+
+
+				.about-image{
+					width:350px;
+					float: right;
+					padding-left: 25px;
+					padding-bottom: 25px;
+				}
+
+
 }
 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+
+
+		.About{
+				background-color: #F4F9E9;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 10px;
+				height: 92vh;
+			}
+
+
+			@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
+			.About-title{
+				 color: #095256;
+			    text-align: center;
+			    padding-top: 5px;
+			    font-family: 'Signika Negative', sans-serif;
+			    font-size: 25px;
+			}
+
+			.quote{
+				font:bold 20px georgia;
+				padding-bottom: 35px;
+				padding-top: 10px;
+			}
+
+			.para{
+				text-align: left;
+			}
+
+			.about-section{
+				font-family: cursive;
+				font-size: 20px;
+				padding-right: 25px;
+				padding-bottom: 35px;
+			}
+
+
+
+				.about-image{
+					width:350px;
+					float: right;
+					padding-left: 35px;
+					padding-bottom: 25px;
+				}
+
+}

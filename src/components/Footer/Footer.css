@@ -1,11 +1,12 @@
 #footer{
-	height: 6vh;
+	height: 7vh;
 	background-color: #F0544F;
 	width: 100%;
 	bottom:0;
+	position: relative;
 	margin: 0px;
 	border:0px;
-	padding-bottom: 0px;
+	padding: 0px;
 }
 
 .icon{
@@ -29,8 +30,4 @@ a > img:hover{
 	background-color: #B4B8AB;
 }
 
-/*.github{
-	padding: 0px;
-	
-}*/
 
